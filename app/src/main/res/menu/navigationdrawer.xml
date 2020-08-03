@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_account"
+        android:title="Profile"/>
+
+    <item android:title="Involvements">
+
+        <menu>
+         <item
+             android:id="@+id/mentions"
+             android:icon="@drawable/ic_timeline"
+             android:title="Mentions"/>
+
+         <item
+             android:id="@+id/Discusions"
+             android:icon="@drawable/ic_people"
+             android:title="Discusions"/>
+
+        </menu>
+
+    </item>
+
+    <group>
+       <item
+        android:id="@+id/Settings"
+           android:icon="@drawable/ic_settings"
+        android:title="Settings and Privacy"/>
+       <item
+        android:id="@+id/Rate"
+           android:icon="@drawable/ic_rates"
+        android:title="Rate Us"/>
+    </group>
+
+    <item
+    android:id="@+id/logout"
+        android:icon="@drawable/ic_lock"
+    android:title="Logout"/>
+
+
+</menu>

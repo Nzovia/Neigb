@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <!--<item
+        android:id="@+id/searchtool"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="1"
+        android:title="@string/search"
+        app:showAsAction="ifRoom|withText"
+        app:actionViewClass="android.widget.SearchView"/>-->
+    <item android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|withText"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/userprofile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_account"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:iconTint="@android:color/holo_purple"
+        />
+
+
+</menu>

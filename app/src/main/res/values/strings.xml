@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Neigb</string>
+    <string name="notification">notification</string>
+    <string name="people">people</string>
+    <string name="home">home</string>
+    <string name="message">message</string>
+    <string name="profile">Profile</string>
+    <string name="peoples_choice">peoples choice</string>
+    <string name="see_your_notification">see your notification</string>
+    <string name="see_your_messages">see your messages</string>
+    <string name="image">image</string>
+    <string name="video">video</string>
+    <string name="search">search</string>
+    <string name="messages">messages</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerclose</string>
+</resources>
